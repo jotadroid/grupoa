@@ -1,0 +1,36 @@
+
+.link-whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    z-index: 1000;
+    bottom: 10px;
+    left: 10px;
+    box-shadow: 0 0 15px #ddd;
+    background: #fff;
+}
+
+.link-whatsapp img {
+    background-color: white;
+    width: 50px;
+    display: block;
+}
+
+div.link-whatsapp a.wsp-sub {
+    text-decoration-line: none !important;
+    color: white;
+}
+
+.wsp-sub {
+    text-decoration: none;
+}
+
+.separate {
+    /** Espacio para el header */
+    margin-top: 100px;
+}
